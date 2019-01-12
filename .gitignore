@@ -137,5 +137,10 @@ dmypy.json
 
 # Later added...
 .vscode/
-data/
 **.h5
+
+# Ignore all things in data/ except the README.md which gives
+# installation instructions for all the data
+data/dogs-and-cats-small/*
+data/kaggle-dogs-cats-data/*
+data/kaggle-histopathologic-cancer-detection/*
