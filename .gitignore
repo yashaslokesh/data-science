@@ -138,6 +138,7 @@ dmypy.json
 # Later added...
 .vscode/
 **.h5
+demo-movies/*
 
 # Ignore all things in data/ except the README.md which gives
 # installation instructions for all the data
