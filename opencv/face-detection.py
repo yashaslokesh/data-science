@@ -33,12 +33,17 @@ while True:
 
         eyes = eye_cascade.detectMultiScale(box_gray)
 
+        i = 0
         for eye_x, eye_y, eye_width, eye_height in eyes:
             cv2.rectangle(box_frame, 
                          (eye_x, eye_y), 
                          (eye_x + eye_width, eye_y + eye_height), 
                          (0, 255, 0), 
                          2)
+            i += 1
+
+            if i == 2:
+                break
 
     cv2.imshow('frame',frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
