@@ -1,0 +1,7 @@
+Pillow==6.0.0
+imageio==2.5.0
+magenta==1.0.5
+numpy==1.16.2
+scipy==1.2.1
+tensorflow==1.13.1
+tqdm==4.31.1
