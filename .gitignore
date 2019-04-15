@@ -146,3 +146,11 @@ images/*
 data/dogs-and-cats-small/*
 data/kaggle-dogs-cats-data/*
 data/kaggle-histopathologic-cancer-detection/*
+
+# Ignore checkpoint for Magenta
+**.ckpt
+
+# And files for the Magenta project...
+magenta/images
+magenta/stylized_images
+magenta/config.py

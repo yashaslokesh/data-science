@@ -8,9 +8,11 @@ Format:
 *website*
 
 **Histopathologic Cancer Detection:**
+**Used in**: ../kaggle_comps/histo-cancer-detection
 kaggle competitions download -c histopathologic-cancer-detection
 https://www.kaggle.com/c/histopathologic-cancer-detection/data
 
 **Dogs vs. Cats:**
+**Used in**: ../deep-learning-with-python/dogs-cats
 kaggle competitions download -c dogs-vs-cats
 https://www.kaggle.com/c/dogs-vs-cats/data
