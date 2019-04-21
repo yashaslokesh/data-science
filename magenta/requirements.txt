@@ -1,3 +1,4 @@
+# Generated with pipreqs
 Pillow==6.0.0
 imageio==2.5.0
 magenta==1.0.5
